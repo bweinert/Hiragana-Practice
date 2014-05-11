@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AEE29FE4187CFC8400D34396 /* ButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE29FE4187CFC8400D34396 /* HiraganaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiraganaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE29FE7187CFC8400D34396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEE29FE9187CFC8400D34396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AEE29FEB187CFC8400D34396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AEE29FEF187CFC8400D34396 /* ButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonTest-Info.plist"; sourceTree = "<group>"; };
+		AEE29FEF187CFC8400D34396 /* HiraganaGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaGame-Info.plist"; sourceTree = "<group>"; };
 		AEE29FF1187CFC8400D34396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE29FF3187CFC8400D34396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEE29FF5187CFC8400D34396 /* ButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		AEE29FF5187CFC8400D34396 /* HiraganaGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiraganaGame-Prefix.pch"; sourceTree = "<group>"; };
 		AEE29FF6187CFC8400D34396 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEE29FF7187CFC8400D34396 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AEE29FFA187CFC8500D34396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEE29FFC187CFC8500D34396 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AEE29FFD187CFC8500D34396 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AEE29FFF187CFC8500D34396 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AEE2A005187CFC8500D34396 /* ButtonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE2A005187CFC8500D34396 /* HiraganaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE2A006187CFC8500D34396 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AEE2A00E187CFC8500D34396 /* ButtonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonTestTests-Info.plist"; sourceTree = "<group>"; };
+		AEE2A00E187CFC8500D34396 /* HiraganaGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaGameTests-Info.plist"; sourceTree = "<group>"; };
 		AEE2A010187CFC8500D34396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE2A012187CFC8500D34396 /* ButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		AEE29FE5187CFC8400D34396 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEE29FE4187CFC8400D34396 /* ButtonTest.app */,
-				AEE2A005187CFC8500D34396 /* ButtonTestTests.xctest */,
+				AEE29FE4187CFC8400D34396 /* HiraganaGame.app */,
+				AEE2A005187CFC8500D34396 /* HiraganaGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		AEE29FEE187CFC8400D34396 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AEE29FEF187CFC8400D34396 /* ButtonTest-Info.plist */,
+				AEE29FEF187CFC8400D34396 /* HiraganaGame-Info.plist */,
 				AEE29FF0187CFC8400D34396 /* InfoPlist.strings */,
 				AEE29FF3187CFC8400D34396 /* main.m */,
-				AEE29FF5187CFC8400D34396 /* ButtonTest-Prefix.pch */,
+				AEE29FF5187CFC8400D34396 /* HiraganaGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		AEE2A00D187CFC8500D34396 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AEE2A00E187CFC8500D34396 /* ButtonTestTests-Info.plist */,
+				AEE2A00E187CFC8500D34396 /* HiraganaGameTests-Info.plist */,
 				AEE2A00F187CFC8500D34396 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEE29FE3187CFC8400D34396 /* ButtonTest */ = {
+		AEE29FE3187CFC8400D34396 /* HiraganaGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEE2A016187CFC8500D34396 /* Build configuration list for PBXNativeTarget "ButtonTest" */;
+			buildConfigurationList = AEE2A016187CFC8500D34396 /* Build configuration list for PBXNativeTarget "HiraganaGame" */;
 			buildPhases = (
 				AEE29FE0187CFC8400D34396 /* Sources */,
 				AEE29FE1187CFC8400D34396 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = ButtonTest;
+			name = HiraganaGame;
 			productName = ButtonTest;
-			productReference = AEE29FE4187CFC8400D34396 /* ButtonTest.app */;
+			productReference = AEE29FE4187CFC8400D34396 /* HiraganaGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AEE2A004187CFC8500D34396 /* ButtonTestTests */ = {
+		AEE2A004187CFC8500D34396 /* HiraganaGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEE2A019187CFC8500D34396 /* Build configuration list for PBXNativeTarget "ButtonTestTests" */;
+			buildConfigurationList = AEE2A019187CFC8500D34396 /* Build configuration list for PBXNativeTarget "HiraganaGameTests" */;
 			buildPhases = (
 				AEE2A001187CFC8500D34396 /* Sources */,
 				AEE2A002187CFC8500D34396 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				AEE2A00B187CFC8500D34396 /* PBXTargetDependency */,
 			);
-			name = ButtonTestTests;
+			name = HiraganaGameTests;
 			productName = ButtonTestTests;
-			productReference = AEE2A005187CFC8500D34396 /* ButtonTestTests.xctest */;
+			productReference = AEE2A005187CFC8500D34396 /* HiraganaGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEE29FDF187CFC8400D34396 /* Build configuration list for PBXProject "ButtonTest" */;
+			buildConfigurationList = AEE29FDF187CFC8400D34396 /* Build configuration list for PBXProject "HiraganaGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEE29FE3187CFC8400D34396 /* ButtonTest */,
-				AEE2A004187CFC8500D34396 /* ButtonTestTests */,
+				AEE29FE3187CFC8400D34396 /* HiraganaGame */,
+				AEE2A004187CFC8500D34396 /* HiraganaGameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		AEE2A00B187CFC8500D34396 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AEE29FE3187CFC8400D34396 /* ButtonTest */;
+			target = AEE29FE3187CFC8400D34396 /* HiraganaGame */;
 			targetProxy = AEE2A00A187CFC8500D34396 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +379,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/ButtonTest-Prefix.pch";
-				INFOPLIST_FILE = "ButtonTest/ButtonTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ButtonTest/HiraganaGame-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "ButtonTest/HiraganaGame-Info.plist";
+				PRODUCT_NAME = HiraganaGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +393,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/ButtonTest-Prefix.pch";
-				INFOPLIST_FILE = "ButtonTest/ButtonTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ButtonTest/HiraganaGame-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "ButtonTest/HiraganaGame-Info.plist";
+				PRODUCT_NAME = HiraganaGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +417,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ButtonTestTests/ButtonTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ButtonTestTests/HiraganaGameTests-Info.plist";
+				PRODUCT_NAME = HiraganaGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +436,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ButtonTest/ButtonTest-Prefix.pch";
-				INFOPLIST_FILE = "ButtonTestTests/ButtonTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ButtonTestTests/HiraganaGameTests-Info.plist";
+				PRODUCT_NAME = HiraganaGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEE29FDF187CFC8400D34396 /* Build configuration list for PBXProject "ButtonTest" */ = {
+		AEE29FDF187CFC8400D34396 /* Build configuration list for PBXProject "HiraganaGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEE2A014187CFC8500D34396 /* Debug */,
@@ -453,21 +455,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEE2A016187CFC8500D34396 /* Build configuration list for PBXNativeTarget "ButtonTest" */ = {
+		AEE2A016187CFC8500D34396 /* Build configuration list for PBXNativeTarget "HiraganaGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEE2A017187CFC8500D34396 /* Debug */,
 				AEE2A018187CFC8500D34396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AEE2A019187CFC8500D34396 /* Build configuration list for PBXNativeTarget "ButtonTestTests" */ = {
+		AEE2A019187CFC8500D34396 /* Build configuration list for PBXNativeTarget "HiraganaGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEE2A01A187CFC8500D34396 /* Debug */,
 				AEE2A01B187CFC8500D34396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
