@@ -20,7 +20,7 @@
 		AEE2A008187CFC8500D34396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE29FE7187CFC8400D34396 /* Foundation.framework */; };
 		AEE2A009187CFC8500D34396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE29FEB187CFC8400D34396 /* UIKit.framework */; };
 		AEE2A011187CFC8500D34396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE2A00F187CFC8500D34396 /* InfoPlist.strings */; };
-		AEE2A013187CFC8500D34396 /* ButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2A012187CFC8500D34396 /* ButtonTestTests.m */; };
+		AEE2A013187CFC8500D34396 /* HiraganaGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2A012187CFC8500D34396 /* HiraganaGameTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 			containerPortal = AEE29FDC187CFC8400D34396 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AEE29FE3187CFC8400D34396;
-			remoteInfo = ButtonTest;
+			remoteInfo = HiraganaGame;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,7 +52,7 @@
 		AEE2A006187CFC8500D34396 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AEE2A00E187CFC8500D34396 /* HiraganaGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaGameTests-Info.plist"; sourceTree = "<group>"; };
 		AEE2A010187CFC8500D34396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AEE2A012187CFC8500D34396 /* ButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTestTests.m; sourceTree = "<group>"; };
+		AEE2A012187CFC8500D34396 /* HiraganaGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiraganaGameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		AEE29FDB187CFC8400D34396 = {
 			isa = PBXGroup;
 			children = (
-				AEE29FED187CFC8400D34396 /* ButtonTest */,
-				AEE2A00C187CFC8500D34396 /* ButtonTestTests */,
+				AEE29FED187CFC8400D34396 /* HiraganaGame */,
+				AEE2A00C187CFC8500D34396 /* HiraganaGameTests */,
 				AEE29FE6187CFC8400D34396 /* Frameworks */,
 				AEE29FE5187CFC8400D34396 /* Products */,
 			);
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEE29FED187CFC8400D34396 /* ButtonTest */ = {
+		AEE29FED187CFC8400D34396 /* HiraganaGame */ = {
 			isa = PBXGroup;
 			children = (
 				AEE29FF6187CFC8400D34396 /* AppDelegate.h */,
@@ -120,7 +120,7 @@
 				AEE29FFF187CFC8500D34396 /* Images.xcassets */,
 				AEE29FEE187CFC8400D34396 /* Supporting Files */,
 			);
-			path = ButtonTest;
+			path = HiraganaGame;
 			sourceTree = "<group>";
 		};
 		AEE29FEE187CFC8400D34396 /* Supporting Files */ = {
@@ -134,13 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEE2A00C187CFC8500D34396 /* ButtonTestTests */ = {
+		AEE2A00C187CFC8500D34396 /* HiraganaGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEE2A012187CFC8500D34396 /* ButtonTestTests.m */,
+				AEE2A012187CFC8500D34396 /* HiraganaGameTests.m */,
 				AEE2A00D187CFC8500D34396 /* Supporting Files */,
 			);
-			path = ButtonTestTests;
+			path = HiraganaGameTests;
 			sourceTree = "<group>";
 		};
 		AEE2A00D187CFC8500D34396 /* Supporting Files */ = {
@@ -168,7 +168,7 @@
 			dependencies = (
 			);
 			name = HiraganaGame;
-			productName = ButtonTest;
+			productName = HiraganaGame;
 			productReference = AEE29FE4187CFC8400D34396 /* HiraganaGame.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -186,7 +186,7 @@
 				AEE2A00B187CFC8500D34396 /* PBXTargetDependency */,
 			);
 			name = HiraganaGameTests;
-			productName = ButtonTestTests;
+			productName = HiraganaGameTests;
 			productReference = AEE2A005187CFC8500D34396 /* HiraganaGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -196,7 +196,7 @@
 		AEE29FDC187CFC8400D34396 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Brittany Weinert";
 				TargetAttributes = {
 					AEE2A004187CFC8500D34396 = {
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE2A013187CFC8500D34396 /* ButtonTestTests.m in Sources */,
+				AEE2A013187CFC8500D34396 /* HiraganaGameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +343,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -379,9 +377,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/HiraganaGame-Prefix.pch";
+				GCC_PREFIX_HEADER = "HiraganaGame/HiraganaGame-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "ButtonTest/HiraganaGame-Info.plist";
+				INFOPLIST_FILE = "HiraganaGame/HiraganaGame-Info.plist";
 				PRODUCT_NAME = HiraganaGame;
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/HiraganaGame-Prefix.pch";
+				GCC_PREFIX_HEADER = "HiraganaGame/HiraganaGame-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "ButtonTest/HiraganaGame-Info.plist";
+				INFOPLIST_FILE = "HiraganaGame/HiraganaGame-Info.plist";
 				PRODUCT_NAME = HiraganaGame;
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,20 +402,19 @@
 		AEE2A01A187CFC8500D34396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonTest.app/ButtonTest";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiraganaGame.app/HiraganaGame";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/ButtonTest-Prefix.pch";
+				GCC_PREFIX_HEADER = "HiraganaGame/HiraganaGame-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ButtonTestTests/HiraganaGameTests-Info.plist";
+				INFOPLIST_FILE = "HiraganaGameTests/HiraganaGameTests-Info.plist";
 				PRODUCT_NAME = HiraganaGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -427,16 +424,15 @@
 		AEE2A01B187CFC8500D34396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonTest.app/ButtonTest";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiraganaGame.app/HiraganaGame";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ButtonTest/ButtonTest-Prefix.pch";
-				INFOPLIST_FILE = "ButtonTestTests/HiraganaGameTests-Info.plist";
+				GCC_PREFIX_HEADER = "HiraganaGame/HiraganaGame-Prefix.pch";
+				INFOPLIST_FILE = "HiraganaGameTests/HiraganaGameTests-Info.plist";
 				PRODUCT_NAME = HiraganaGameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
