@@ -126,14 +126,21 @@
 
     
     if ([currentCharacter.text isEqualToString: [hiraganaTable objectForKey: title]]) {
-        statusText.text = @"correct, new character changed";
+        statusText.text = @"correct, new character selected";
+        [self performSelector: @selector(clearLabel) withObject:nil afterDelay:1];
         [self setCharacter];
         
     }
     else {
-        statusText.text = @"wrong";
+        statusText.text = @"incorrect";
+        [self performSelector: @selector(clearLabel) withObject:nil afterDelay:1];
     }
 
+}
+
+// Method that is used to set the label blank
+- (void)clearLabel {
+    statusText.text = @" ";
 }
 
 - (void)didReceiveMemoryWarning {
