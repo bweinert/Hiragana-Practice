@@ -16,66 +16,14 @@
 @end
 
 @implementation ViewController
+
 @synthesize hiraganaTable;
 @synthesize statusText;
 @synthesize currentCharacter;
 
-@synthesize buttoni;
-@synthesize buttona;
-@synthesize buttonu;
-@synthesize buttone;
-@synthesize buttono;
+@synthesize buttons;
 
-@synthesize buttonka;
-@synthesize buttonki;
-@synthesize buttonku;
-@synthesize buttonke;
-@synthesize buttonko;
 
-@synthesize buttonta;
-@synthesize buttonchi;
-@synthesize buttontsu;
-@synthesize buttonte;
-@synthesize buttonto;
-
-@synthesize buttonsa;
-@synthesize buttonshi;
-@synthesize buttonsu;
-@synthesize buttonse;
-@synthesize buttonso;
-
-@synthesize buttonna;
-@synthesize buttonni;
-@synthesize buttonnu;
-@synthesize buttonne;
-@synthesize buttonno;
-
-@synthesize buttonha;
-@synthesize buttonhi;
-@synthesize buttonfu;
-@synthesize buttonhe;
-@synthesize buttonho;
-
-@synthesize buttonma;
-@synthesize buttonmi;
-@synthesize buttonmu;
-@synthesize buttonme;
-@synthesize buttonmo;
-
-@synthesize buttonra;
-@synthesize buttonri;
-@synthesize buttonru;
-@synthesize buttonre;
-@synthesize buttonro;
-
-@synthesize buttonwa;
-@synthesize buttonwo;
-
-@synthesize buttonya;
-@synthesize buttonyu;
-@synthesize buttonyo;
-
-@synthesize buttonn;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
